@@ -1,0 +1,131 @@
+<!--
+Theme name:  Epic Noir
+Artwork by:  Nico La Rosa (Chicuelo) 
+Coding by:   Malixx
+Website:     www.github/Malixx92
+Fonts used:  Acre Medium & Bebas Neue Bold
+
+# Thanks and Credits
+Some controllers and graphics used in this theme are created by great artists who kindly agreed to include their art within the theme.
+
+# License
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Please see README.md for full details.
+-->
+
+<theme>
+
+	<formatVersion>4</formatVersion>
+	
+	<feature supported="carousel">
+	<view name="system">
+		 <carousel name="systemcarousel">
+			 <type>vertical</type>
+		 </carousel>
+
+		<image name="indicator-bg" extra="true"> <!-- Left bar bg -->
+		 <path>./left-ray.svg</path>
+		 <tile>false</tile>
+		 <size>0 1</size>
+		 <pos>0 0</pos>
+		 <zIndex>81</zIndex>
+	</image>
+
+		 <image name="button" extra="true"> <!-- Button A Enter -->
+			 <path>./button.svg</path>
+			 <tile>false</tile>
+			 <origin>0 0</origin>
+			 <pos>0.12 0.545</pos>
+			 <size>0 0.044</size>
+			 <zIndex>70</zIndex>
+		</image>
+
+ <image name="controller" extra="true"> <!-- Controller Images -->
+	 <path>./../_inc/controllers/$system.png</path>
+	 <pos>0.12 0.61</pos>
+	 <origin>0 0</origin>
+	 <maxSize>0.32 0.32</maxSize>
+	 <zIndex>80</zIndex>
+ </image>
+
+	 <image name="background" extra="true"> <!-- Posters -->
+				<origin>0 0</origin>
+				<pos>0 0</pos>
+				<size>1 1</size>
+				<path>./../_inc/posters/540p/$system.jpg</path>
+		<zIndex>60</zIndex>
+		 </image>
+
+		 <text name="systemInfo"> <!--Games Available-->
+			 <alignment>left</alignment>
+			 <pos>0.12 0.300</pos>
+			 <size>0.400 0.100</size><!-- X change text length, Y change text height -->
+			 <color>A3332D</color>
+			 <origin>0 0</origin>
+				<fontPath>./Acre.otf</fontPath>
+				<fontSize>0.0315</fontSize>
+			 <zIndex>80</zIndex>	           
+		</text>
+
+		<text name="info2"> <!-- System title -->
+		 <fontPath>./BebasNeue.otf</fontPath>
+		 <alignment>left</alignment>
+		 <pos>0.12 0.04</pos>
+		 <size>0.500 0.400</size> <!-- X change text length, Y change text height -->
+		 <color>FFFFFF</color>
+		 <lineSpacing>1</lineSpacing>
+		<fontSize>0.100</fontSize>
+		 <zIndex>80</zIndex>	
+ </text>
+	 
+ <text name="info1" extra="true"> <!-- System description -->
+	 <fontPath>./Acre.otf</fontPath>
+	 <color>8F8F8F</color>
+	 <alignment>left</alignment>
+	 <fontSize>0.021</fontSize>
+	 <lineSpacing>1.2</lineSpacing>
+	 <pos>0.12 0.400</pos>
+	 <origin>0 0</origin>
+	 <size>0.300 0.100</size><!-- X change text length, Y change text height -->
+	 <zIndex>82</zIndex>
+</text>
+
+ <text name="info3" extra="true"> <!--Year-->
+	 <fontPath>./Acre.otf</fontPath>
+	 <color>7f7f7f</color>
+	 <alignment>left</alignment>
+	 <pos>0.12 0.09</pos>
+	 <fontSize>0.0315</fontSize>
+	 <zIndex>82</zIndex>
+ </text>	
+
+ <text name="txt_dot" extra="true"> <!--Separator-->
+	 <text>.</text>
+	 <fontPath>./Acre.otf</fontPath>
+	 <color>7f7f7f</color>
+	 <alignment>center</alignment>
+	 <pos>0.162 0.081</pos>
+	 <fontSize>0.0315</fontSize>
+	 <zIndex>82</zIndex>
+</text>
+
+ <text name="info4" extra="true"> <!--Company-->
+	 <fontPath>./Acre.otf</fontPath>
+	 <color>7f7f7f</color>
+	 <alignment>left</alignment>
+	 <pos>0.173 0.09</pos>
+	 <fontSize>0.0315</fontSize> 
+	 <zIndex>82</zIndex>
+ </text>	
+	 
+ <helpsystem name="help"> <!-- Not visible on purpose -->
+	 <fontPath>./Acre.otf</fontPath>
+	 <fontSize>0.02</fontSize>
+	 <pos>0.12 2</pos>
+	 <textColor>F8F8F8</textColor>
+	 <iconColor>F8F8F8</iconColor>
+ </helpsystem>	  
+		
+ </view>
+	 </feature>
+ 
+</theme>   

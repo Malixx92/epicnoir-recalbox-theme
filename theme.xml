@@ -1,0 +1,247 @@
+<!--
+Theme name:  Epic Noir
+Artwork by:  Nico La Rosa (Chicuelo) 
+Coding by:   Malixx
+Website:     www.github/Malixx92
+Fonts used:  Acre Medium & Bebas Neue Bold
+
+# Thanks and Credits
+Some controllers and graphics used in this theme are created by great artists who kindly agreed to include their art within the theme.
+
+# License
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Please see README.md for full details.
+-->
+
+<theme>
+   <formatVersion>4</formatVersion>
+
+<include subset="systemview" name="1-540p">./systemviews/540p.xml</include>
+<include subset="systemview" name="2-720p">./systemviews/720p.xml</include>
+	<include>./$system/custom.xml</include>
+	<include>./$system/$language/custom.xml</include>
+
+   <view name="system">
+      <sound name="directory">
+	    <path>./music</path>
+      </sound>
+   </view>
+
+       <text name="sys_line1" extra="true">
+        <fontPath>./_inc/fonts/Acre.otf</fontPath>
+        <alignment>left</alignment>
+        <forceUppercase>1</forceUppercase>
+        <color>FFFFFF</color>
+    </text>
+
+   <view name="menu, detailed, basic">
+      <helpsystem name="help"> 
+         <fontPath>./Acre.otf</fontPath>
+         <fontSize>0.02</fontSize>
+         <pos>0.03 0.957</pos>
+         <textColor>F8F8F8</textColor>
+         <iconColor>F8F8F8</iconColor>
+      </helpsystem>	  
+   </view>
+   
+   <view name="menu">
+      <menuText name="menufooter">
+		 <fontPath>./_inc/fonts/Acre.otf</fontPath>
+		 <fontSize>0.023</fontSize>
+		 <color>868686</color>
+	  </menuText>
+
+	  <menuText name="menutext"> 
+		 <fontPath>./_inc/fonts/Acre.otf</fontPath>
+		 <fontSize>0.029</fontSize>
+		 <color>868686</color>
+	 	 <separatorColor>191919</separatorColor>
+		 <selectorColor>5e026d</selectorColor>
+		 <selectedColor>FFFFFF</selectedColor>
+	  </menuText>
+
+	  <menuTextSmall name="menutextsmall">
+		 <fontPath>./_inc/fonts/Acre.otf</fontPath>
+		 <color>e0343d</color>
+		 <fontSize>0.022</fontSize>
+	  </menuTextSmall>
+
+	  <menuText name="menutitle">
+		 <fontPath>./_inc/fonts/Acre.otf</fontPath>
+		 <fontSize>0.04</fontSize>
+		 <color>f01e29</color>
+	  </menuText>
+
+	  <menuIcons name="menuicons">
+         <iconKodi>./_inc/menu_icons/Kodi.png</iconKodi>
+         <iconSystem>./_inc/menu_icons/System.png</iconSystem>
+         <iconUpdates>./_inc/menu_icons/Updates.png</iconUpdates>
+         <iconGames>./_inc/menu_icons/Games.png</iconGames>
+         <iconControllers>./_inc/menu_icons/Controllers.png</iconControllers>
+         <iconUI>./_inc/menu_icons/UI.png</iconUI>
+         <iconSound>./_inc/menu_icons/Sound.png</iconSound>
+         <iconNetwork>./_inc/menu_icons/Network.png</iconNetwork>
+         <iconScraper>./_inc/menu_icons/Scraper.png</iconScraper>
+         <iconAdvanced>./_inc/menu_icons/Advanced.png</iconAdvanced>
+         <iconQuit>./_inc/menu_icons/Quit.png</iconQuit>
+         <iconRestart>./_inc/menu_icons/Restart.png</iconRestart>
+         <iconShutdown>./_inc/menu_icons/Shutdown.png</iconShutdown>
+         <iconFastShutdown>./_inc/menu_icons/Fastshutdown.png</iconFastShutdown>
+		 <iconLicense>./_inc/menu_icons/License.png</iconLicense>
+      </menuIcons>
+
+   </view>
+
+   <view name="detailed, basic">
+      <textlist name="gamelist">
+        <selectorColor>1c1c1c</selectorColor>
+        <selectedColor>F8F8F8</selectedColor>
+        <selectorHeight>0.05</selectorHeight>
+        <primaryColor>585858</primaryColor>
+        <secondaryColor>888888</secondaryColor>
+        <fontPath>./_inc/fonts/Acre.otf</fontPath>
+        <alignment>left</alignment>
+        <pos>0 0.0833</pos>
+	    <size>0.323 0.8513</size>
+        <fontSize>0.03</fontSize>
+        <lineSpacing>1.683</lineSpacing>
+        <horizontalMargin>0.02864</horizontalMargin>
+      </textlist>
+	  
+    <image name="background" extra="true">
+        <tile>false</tile>
+        <path>./_inc/images/default.jpg</path>
+        <size>1 1</size>
+        <pos>0 0</pos>
+      </image>
+	  
+	  <image name="in-game-layer" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/coinops/overbar.png</path>
+      </image>
+	  
+      <text name="md_lbl_rating, md_lbl_genre, md_lbl_players">
+         <color>888888</color>
+         <forceUppercase>0</forceUppercase>
+         <fontPath>./_inc/fonts/Acre.otf</fontPath>
+         <fontSize>0.0186</fontSize>
+      </text>
+
+	  <text name="md_genre, md_players">
+         <color>E8A500</color>
+         <forceUppercase>0</forceUppercase>
+         <fontPath>./_inc/fonts/Acre.otf</fontPath>
+         <fontSize>0.0186</fontSize>
+      </text>
+
+      <text name="info2" extra="true">
+         <text>$system</text>
+         <fontPath>./_inc/fonts/Acre.otf</fontPath>
+         <alignment>left</alignment>
+         <forceUppercase>1</forceUppercase>
+         <color>ffffff</color>
+         <fontSize>0.036</fontSize>
+         <origin>0 0</origin>
+         <pos>0.429 0</pos>
+         <size>0.40 0.075</size>
+     </text>
+
+      <text name="txt_top" extra="true">
+         <fontPath>./_inc/fonts/Acre.otf</fontPath>
+         <text>Select Game</text>
+         <alignment>left</alignment>
+         <color>F8F8F8</color>
+         <fontSize>0.034</fontSize>
+         <origin>0 0</origin>
+         <pos>0.029 0</pos>
+         <size>0.20 0.08</size>
+     </text>
+
+      <text name="txt_descript" extra="true">
+         <text>Description</text>
+         <fontPath>./_inc/fonts/Acre.otf</fontPath>
+         <alignment>left</alignment>
+         <fontSize>0.0186</fontSize>
+         <color>ffffff</color>
+         <origin>0 0</origin>
+         <pos>0.429 0.720</pos>
+         <size>0.06 0.07</size>
+     </text> 
+
+      <text name="md_description">
+         <fontPath>./_inc/fonts/Acre.otf</fontPath>
+         <color>818181</color>
+          <fontSize>0.02</fontSize>
+         <alignment>left</alignment>
+          <forceUppercase>0</forceUppercase>
+          <lineSpacing>1.25</lineSpacing>
+         <pos>0.429 0.787</pos>
+         <size>0.464 0.1111</size>
+      </text>
+
+      <text name="md_lbl_rating">
+         <color>ffffff</color>
+         <pos>0.428 0.932</pos>
+         <size>0.06 0.07</size>
+     </text>
+
+      <rating name="md_rating">
+        <pos>0.5 0.957</pos>
+        <size>0 0.020</size>
+		 <filledPath>./_inc/images/star_filled.svg</filledPath>
+         <unfilledPath>./_inc/images/star_empty.svg</unfilledPath>
+      </rating>
+	  
+      <text name="md_lbl_players">
+	     <forceUppercase>0</forceUppercase>
+        <color>ffffff</color>
+         <pos>0.615 0.957</pos>
+         <size>0.15 0.0186</size>
+      </text>
+
+      <text name="md_players">
+         <forceUppercase>0</forceUppercase>
+         <pos>0.672 0.932</pos>
+         <size>0.06 0.07</size>
+         <color>888888</color>
+      </text>
+	  
+      <text name="md_lbl_genre">
+	     <forceUppercase>0</forceUppercase>
+        <color>ffffff</color>
+        <pos>0.770 0.932</pos>
+        <size>0.06 0.07</size>
+      </text>
+
+      <text name="md_genre">
+         <forceUppercase>0</forceUppercase>
+         <pos>0.817 0.932</pos>
+         <size>0.4 0.07</size>
+         <color>888888</color>
+      </text>
+ 
+		<helpsystem name="help">
+         <fontSize>0.02</fontSize>
+         <pos>0.03 0.957</pos>
+         <textColor>888888</textColor>
+         <iconColor>ffffff</iconColor>
+		</helpsystem>	  	  
+
+     <image name="md_image">
+        <tile>false</tile>
+        <origin>0.5 0.5</origin>
+        <pos>0.66 0.42</pos>
+        <maxSize>0.5 0.6</maxSize>    
+      </image>
+
+	  <video name="md_video">
+         <pos>0.6 0.42</pos>
+         <size>0.5 0.6</size>
+		 <origin>0.5 0.5</origin>
+         <zIndex>5</zIndex>         
+      </video>   
+
+   </view>
+   
+</theme>

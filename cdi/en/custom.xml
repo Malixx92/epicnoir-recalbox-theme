@@ -1,0 +1,21 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>The CD-i, acronym for Interactive Compact Disc, is a video game console and multimedia player designed by Philips, Sony and Matsushita to impose a new “multimedia” standard.</text>
+		</text>
+		
+		<text name="info2" extra="true">
+			<text>CD-i</text>
+		</text>
+		
+		<text name="info3" extra="true">
+			<text>1991</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>Philips, Sony et Matsushita</text>
+		</text>			
+	</view>
+</theme>

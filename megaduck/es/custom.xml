@@ -1,0 +1,25 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true">
+			<text>El Mega Duck WG-108 (también conocido como Cougar Boy) es una consola de juegos portátil que fue desarrollada y fabricada por Welback Holdings, con sede en Hong Kong, a través de su división Timlex International, y lanzada en 1993.</text>
+		</text>
+		
+		<text name="info2" extra="true">
+			<text>MegaDuck</text>
+		</text>
+
+		
+	
+		<text name="info3" extra="true">
+			<text>1988</text>
+		</text>
+		
+		<text name="info4" extra="true">
+			<text>Welback Holdings</text>
+		</text>	
+	
+	</view>
+
+</theme>
