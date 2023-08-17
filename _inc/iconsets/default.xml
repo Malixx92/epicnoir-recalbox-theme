@@ -1,0 +1,13 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	
+	
+	<view name="menu, system, basic, detailed, gameclip">
+		<helpsystem name="help">
+			<iconColor>000000D1</iconColor>
+			
+		</helpsystem>		
+	</view>
+	
+	
+</theme>

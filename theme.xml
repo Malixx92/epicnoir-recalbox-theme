@@ -15,8 +15,16 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 <theme>
    <formatVersion>4</formatVersion>
 
-<include subset="systemview" name="1-540p">./systemviews/540p.xml</include>
-<include subset="systemview" name="2-720p">./systemviews/720p.xml</include>
+   <include subset="iconset" name="1-standard icons">./_inc/iconsets/default.xml</include>
+   <include subset="iconset" name="2-SNES">./_inc/iconsets/snes.xml</include>
+   <include subset="iconset" name="3-SNES ALT">./_inc/iconsets/snesalt.xml</include>
+   <include subset="iconset" name="4-XBox">./_inc/iconsets/xbox.xml</include>
+   <include subset="iconset" name="5-PSX">./_inc/iconsets/psx.xml</include>
+   <include subset="iconset" name="6-Xbox One">./_inc/iconsets/xboxone.xml</include>
+   <include subset="iconset" name="7-Arcade">./_inc/iconsets/arcade.xml</include>
+
+<include subset="systemview" name="1-720p">./systemviews/720p.xml</include>
+<include subset="systemview" name="2-540p">./systemviews/540p.xml</include>
 	<include>./$system/custom.xml</include>
 	<include>./$system/$language/custom.xml</include>
 
