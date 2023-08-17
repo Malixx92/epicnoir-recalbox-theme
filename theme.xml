@@ -87,6 +87,8 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
          <iconShutdown>./_inc/menu_icons/Shutdown.png</iconShutdown>
          <iconFastShutdown>./_inc/menu_icons/Fastshutdown.png</iconFastShutdown>
 		 <iconLicense>./_inc/menu_icons/License.png</iconLicense>
+       <iconRecalboxRGBDual>./_inc/menu_icons/RRGBD.png</iconRecalboxRGBDual>
+		 <iconTate>./_inc/menu_icons/Tate.png</iconTate>
       </menuIcons>
 
    </view>
