@@ -46,38 +46,42 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
          <fontPath>./Acre.otf</fontPath>
          <fontSize>0.02</fontSize>
          <pos>0.03 0.957</pos>
-         <textColor>F8F8F8</textColor>
-         <iconColor>F8F8F8</iconColor>
-      </helpsystem>	  
+         <textColor>E3E3E3</textColor>
+         <iconColor>E3E3E3</iconColor>
+      </helpsystem>
    </view>
-   
+
    <view name="menu">
       <menuText name="menufooter">
 		 <fontPath>./_inc/fonts/Acre.otf</fontPath>
 		 <fontSize>0.023</fontSize>
-		 <color>868686</color>
+		 <color>E3E3E3</color>
 	  </menuText>
 
 	  <menuText name="menutext"> 
 		 <fontPath>./_inc/fonts/Acre.otf</fontPath>
 		 <fontSize>0.029</fontSize>
-		 <color>868686</color>
-	 	 <separatorColor>191919</separatorColor>
-		 <selectorColor>5e026d</selectorColor>
-		 <selectedColor>FFFFFF</selectedColor>
+		 <color>e3e3e3</color>
+	 	 <separatorColor>1E1F20</separatorColor>
+		 <selectorColor>e3e3e3</selectorColor>
+		 <selectedColor>000000</selectedColor>
 	  </menuText>
 
 	  <menuTextSmall name="menutextsmall">
 		 <fontPath>./_inc/fonts/Acre.otf</fontPath>
-		 <color>e0343d</color>
+		 <color>e3e3e3</color>
 		 <fontSize>0.022</fontSize>
 	  </menuTextSmall>
 
 	  <menuText name="menutitle">
 		 <fontPath>./_inc/fonts/Acre.otf</fontPath>
 		 <fontSize>0.04</fontSize>
-		 <color>f01e29</color>
+		 <color>E3E3E3</color>
 	  </menuText>
+
+      <menuBackground name="menubg">
+         <color>1E1F20</color>
+      </menuBackground>
 
 	  <menuIcons name="menuicons">
          <iconKodi>./_inc/menu_icons/Kodi.png</iconKodi>
@@ -94,9 +98,9 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
          <iconRestart>./_inc/menu_icons/Restart.png</iconRestart>
          <iconShutdown>./_inc/menu_icons/Shutdown.png</iconShutdown>
          <iconFastShutdown>./_inc/menu_icons/Fastshutdown.png</iconFastShutdown>
-		 <iconLicense>./_inc/menu_icons/License.png</iconLicense>
-       <iconRecalboxRGBDual>./_inc/menu_icons/RRGBD.png</iconRecalboxRGBDual>
-		 <iconTate>./_inc/menu_icons/Tate.png</iconTate>
+	      <iconLicense>./_inc/menu_icons/License.png</iconLicense>
+         <iconRecalboxRGBDual>./_inc/menu_icons/RRGBD.png</iconRecalboxRGBDual>
+	      <iconTate>./_inc/menu_icons/Tate.png</iconTate>
       </menuIcons>
 
    </view>
@@ -116,21 +120,21 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
         <lineSpacing>1.683</lineSpacing>
         <horizontalMargin>0.02864</horizontalMargin>
       </textlist>
-	  
+
     <image name="background" extra="true">
         <tile>false</tile>
         <path>./_inc/images/default.jpg</path>
         <size>1 1</size>
         <pos>0 0</pos>
       </image>
-	  
+
 	  <image name="in-game-layer" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>
          <path>./_inc/coinops/overbar.png</path>
       </image>
-	  
+
       <text name="md_lbl_rating, md_lbl_genre, md_lbl_players">
          <color>888888</color>
          <forceUppercase>0</forceUppercase>
@@ -202,7 +206,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 		 <filledPath>./_inc/images/star_filled.svg</filledPath>
          <unfilledPath>./_inc/images/star_empty.svg</unfilledPath>
       </rating>
-	  
+
       <text name="md_lbl_players">
 	     <forceUppercase>0</forceUppercase>
         <color>ffffff</color>
@@ -216,7 +220,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
          <size>0.06 0.07</size>
          <color>888888</color>
       </text>
-	  
+
       <text name="md_lbl_genre">
 	     <forceUppercase>0</forceUppercase>
         <color>ffffff</color>
@@ -236,22 +240,21 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
          <pos>0.03 0.957</pos>
          <textColor>888888</textColor>
          <iconColor>ffffff</iconColor>
-		</helpsystem>	  	  
+		</helpsystem>
 
      <image name="md_image">
         <tile>false</tile>
         <origin>0.5 0.5</origin>
         <pos>0.66 0.42</pos>
-        <maxSize>0.5 0.6</maxSize>    
+        <maxSize>0.5 0.6</maxSize>
       </image>
 
 	  <video name="md_video">
          <pos>0.6 0.42</pos>
          <size>0.5 0.6</size>
 		 <origin>0.5 0.5</origin>
-         <zIndex>5</zIndex>         
-      </video>   
+         <zIndex>5</zIndex>
+      </video>
 
    </view>
-   
 </theme>
