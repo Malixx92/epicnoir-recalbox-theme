@@ -102,7 +102,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
          <iconRecalboxRGBDual>./_inc/menu_icons/RRGBD.png</iconRecalboxRGBDual>
 	 <iconTate>./_inc/menu_icons/Tate.png</iconTate>
          <iconArcade>./_inc/menu_icons/Arcade.png</iconArcade>
-         <iconUpdates>./_inc/menu_icons/Updates.png</iconUpdates>
+         <iconDownload>./_inc/menu_icons/Download.png</iconDownload>
       </menuIcons>
 
    </view>
