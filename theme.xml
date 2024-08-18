@@ -83,7 +83,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
          <color>1E1F20</color>
       </menuBackground>
 
-	  <menuIcons name="menuicons">
+	<menuIcons name="menuicons">
          <iconKodi>./_inc/menu_icons/Kodi.png</iconKodi>
          <iconSystem>./_inc/menu_icons/System.png</iconSystem>
          <iconUpdates>./_inc/menu_icons/Updates.png</iconUpdates>
@@ -98,9 +98,11 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
          <iconRestart>./_inc/menu_icons/Restart.png</iconRestart>
          <iconShutdown>./_inc/menu_icons/Shutdown.png</iconShutdown>
          <iconFastShutdown>./_inc/menu_icons/Fastshutdown.png</iconFastShutdown>
-	      <iconLicense>./_inc/menu_icons/License.png</iconLicense>
+	 <iconLicense>./_inc/menu_icons/License.png</iconLicense>
          <iconRecalboxRGBDual>./_inc/menu_icons/RRGBD.png</iconRecalboxRGBDual>
-	      <iconTate>./_inc/menu_icons/Tate.png</iconTate>
+	 <iconTate>./_inc/menu_icons/Tate.png</iconTate>
+         <iconArcade>./_inc/menu_icons/Arcade.png</iconArcade>
+         <iconUpdates>./_inc/menu_icons/Updates.png</iconUpdates>
       </menuIcons>
 
    </view>
